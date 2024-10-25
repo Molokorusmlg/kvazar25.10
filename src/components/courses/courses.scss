@@ -1,0 +1,36 @@
+@import "../../styles/global.scss";
+
+.courses {
+    background-color: #fff   ;
+    background-image: none;
+    @include flex(column, 0, 0);
+    height: 100vh;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.courses__search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.courses__search-input {
+    width: 70%;
+    height: 60px;
+}
+
+.courses__cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.courses__title {
+    font-size: 35px;
+    color: $main_color-blue;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 20px;
+}
