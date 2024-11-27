@@ -29,6 +29,11 @@
   src: url("../../../assets/fonts/Montserrat-Medium.ttf");
   font-weight: 600;
 }
+@font-face {
+  font-family: Muller;
+  src: url("../../../assets/fonts/muller/Fontfabric - MullerExtraBold.otf");
+  font-weight: 700;
+}
 .main {
   background-color: rgb(231, 231, 231);
   display: flex;

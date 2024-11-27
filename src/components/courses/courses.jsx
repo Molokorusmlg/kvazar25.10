@@ -1,4 +1,5 @@
 import { COURSES__CARD } from "../../mock/mock";
+import searchICO from "../../assets/header_img/searchIcon.svg";
 import { CardVideo } from "../videoCards/videoCard";
 import "./css/courses.css";
 
@@ -6,13 +7,19 @@ function CoursesMeny() {
   return (
     <div className="courses">
       <div className="courses__search-box">
-        <input
-          className="courses__search-input"
-          type="text"
-          placeholder="Search"
-        />
+        <div className="courses__search-box-search">
+          <img
+            className="courses__search-box-search-svg"
+            src={searchICO}
+            alt="иконка поиска"
+          />
+          <input
+            className="courses__search-input"
+            type="text"
+            placeholder="Search"
+          />
+        </div>
       </div>
-      <h1 className="courses__title">Курсы:</h1>
       <div className="courses__block">
         <div className="courses__cards">
           {COURSES__CARD.map((card_video) => {

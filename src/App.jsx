@@ -5,6 +5,7 @@ import MainPrograms from "./components/main_programs/mainPrograms";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Register from "./components/signUp/register";
 import CoursesMeny from "./components/courses/courses";
+import './css/app.css';
 function App() {
   return (
     <div className="App">

@@ -33,6 +33,12 @@
   font-weight: 600;
 }
 
+@font-face {
+  font-family: Muller;
+  src: url("../../../assets/fonts/muller/Fontfabric\ -\ MullerExtraBold.otf");
+  font-weight: 700;
+}
+
 $main_color-blue: #283a97;
 
 @mixin flex($flex-d, $just-c, $align-i) {

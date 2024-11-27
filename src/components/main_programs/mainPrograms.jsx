@@ -6,7 +6,7 @@ function MainPrograms() {
   return (
     <div className="content">
       <div className="content__title">
-        <h1 className="title_cards">Выбери программу:</h1>
+        <h1 className="title_cards">Выберите программу:</h1>
       </div>
       <div className="content__cards">
         {HOME_CARD.map((card) => {
